@@ -1,0 +1,33 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'WisdomVenucia' do
+    pod 'AFNetworking',             '<=2.6.1'
+    pod 'SDWebImage',               '~> 3.7.3'
+    pod 'Masonry',                  '~> 0.6.3'
+    pod 'pop',                      '~> 1.0.8'
+    pod 'Mantle',                   '~> 2.0.5'
+    pod 'MJRefresh',                '~> 2.4.12'
+    pod 'MBProgressHUD',            '~> 0.9.1'
+    pod 'SVProgressHUD'
+    pod 'IQKeyboardManager',        '~> 3.3.2'
+    pod 'RESideMenu',               '~> 4.0.7'
+    pod 'AMap3DMap',                '~> 3.2.1'
+    pod 'AMapSearch',               '~> 3.0.1'
+    pod 'AMapLocation',             '~> 1.0.1'
+    pod 'SDCycleScrollView',        '~> 1.3'
+    #小红点提示:https://github.com/weng1250/WZLBadge
+    pod 'WZLBadge',                 '~> 1.2.1'
+
+end
+
+target 'WisdomVenuciaTests' do
+
+end
+
+target 'WisdomVenuciaUITests' do
+
+end
+

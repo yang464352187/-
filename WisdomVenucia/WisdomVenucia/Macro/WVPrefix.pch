@@ -1,0 +1,63 @@
+//
+//  WVPrefix.pch
+//  WisdomVenucia
+//
+//  Created by 苏凡 on 15/11/17.
+//  Copyright © 2015年 苏凡. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#ifndef WVPrefix_pch
+#define WVPrefix_pch
+
+// Macro
+#import "AppMacro.h"
+#import "UtilsMacro.h"
+#import "VendorMacro.h"
+#import "NotificationMacro.h"
+
+// Pods
+#import <pop/POP.h>
+#import <Mantle/Mantle.h>
+#import <Masonry/Masonry.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <WZLBadge/WZLBadgeImport.h>
+#import <MJRefresh/MJRefresh.h>
+#import "Describe.h"
+#import <RESideMenu/RESideMenu.h>
+#import <AMap3DMap/MAMapKit/MAMapKit.h>
+#import <AMapSearch/AMapSearchKit/AMapSearchKit.h>
+#import <AMapLocation/AMapLocationKit/AMapLocationKit.h>
+#import <SDWebImage/UIButton+WebCache.h>
+
+// Categaries
+#import "NSObject+ProgressHUD.h"
+#import "UILabel+Handy.h"
+#import "UIButton+Handy.h"
+#import "UITextField+Handy.h"
+#import "UIButton+Handy.h"
+#import "NSString+Handy.h"
+#import "NSString+Encryption.h"
+
+// Model
+#import "UserModel.h"
+#import "LoginModel.h"
+#import "UserInfoModel.h"
+
+//BaseVC
+#import "WVBaseVC.h"
+#import "BaseNavigationVC.h"
+#import "LoginVC.h"
+
+//
+#import "RootViewController.h"
+
+//网络
+#import "NetAPIManager.h"
+
+#endif /* WVPrefix_pch */
+
+#endif
